@@ -1,6 +1,9 @@
 Closure-Compiler-Kickstart
 ==========================
 
+
+> THIS IS VERY OLD, KEPT AS REFERENCE FROM AN POST I MADE A LONG TIME AGO. [http://www.techhui.com/profiles/blogs/staying-in-control-with-closure-compiler](http://www.techhui.com/profiles/blogs/staying-in-control-with-closure-compiler)
+
 As well as optimizing and obfusicating you code, the Closure Compiler keeps large code bases more maintainable by enforcing/warning you about types, interfaces, signatures, etc.  This project provides a lightweight environment to help you compile and debug your javascript projects/files with use of the Closure Compiler, without any dependency on the Closure Library.  
 
 Enjoy a save / reload development style.  When needed compile and even debug your compiled version via source maps.

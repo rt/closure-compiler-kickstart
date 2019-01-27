@@ -1,0 +1,9 @@
+{
+	"srcPath": "sample-lib/",
+	"list": [
+	"example.js",
+	"ClassA.js",
+	"ClassB.js",
+	"interfaces/Identifiable.js"
+		]
+}

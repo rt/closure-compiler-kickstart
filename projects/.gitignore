@@ -1,0 +1,9 @@
+
+*
+!.gitignore
+!example-project/
+!example-project/*
+
+
+
+

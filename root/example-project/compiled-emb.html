@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Example Project (compiled-emb)</title>
+
+
+<%lib.example-project.compiled-emb%>
+	
+<script>
+		  
+	function load() {
+		document.getElementById("instBtn").addEventListener("click", function() {
+			
+			var o = new example.ClassB(document.getElementById("constructorInput").value);
+			document.getElementById("memberId").innerHTML = o.getId();	
+		}, false);
+	}
+	
+	
+</script>
+		
+</head>
+	<body onload="load();">
+		ClassA implements interface Identifiable which enforces getId()	<br />
+		ClassB inherits ClassA, and overrides getId() with its own getId() adding " from ClassB" <br />
+		var o = new ClassB(<input id="constructorInput">);<button id="instBtn">Instatiate</button><br />
+		this.id = <span id="memberId"></span> ;<br />
+
+				Don't forget to enable source maps in you browser.<br /><br />
+
+				Version Types <br />
+				<a href="compiled.html">Compiled Link (use source maps to view source code)</a><br />
+				<a href="compiled-emb.html">Compiled Embedded into the page (possibly gadgets, phoneGap, etc.)</a><br />
+				<a href="dev.html">Development with all actual source links (don't have to recompile after edits)</a><br />
+	</body>
+</html>
